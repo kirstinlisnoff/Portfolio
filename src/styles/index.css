@@ -1,0 +1,123 @@
+:root {
+  font-family: "Unna", serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+
+  --pink: #ffb5a7;
+  --lightpink: #fcd5ce;
+  --light: #f8edeb;
+  --lightorange: #f9dcc4;
+  --orange: #fec89a;
+  --navy: #2c3e50;
+  --transparentnavy: #1c27339b;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.unna-regular {
+  font-family: "Unna", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unna-bold {
+  font-family: "Unna", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.unna-regular-italic {
+  font-family: "Unna", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.unna-bold-italic {
+  font-family: "Unna", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+html {
+  font-family: "Unna", serif;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: var(--navy);
+}
+
+main {
+  flex: 1;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+/* a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Unna", serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1; */
+/* }
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */

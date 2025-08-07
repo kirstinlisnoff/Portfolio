@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/hero.css';
 
 const Header = () => { 
     return (
         <header>
-            <h1>My Portfolio</h1>
+            <h1>Kirstin Lisnoff</h1>
         </header>
     );
 }

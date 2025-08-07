@@ -1,3 +1,7 @@
+import React from 'react';
+import '../styles/hero.css';
+
+
 const Navbar = () => {
     return (
         <nav>

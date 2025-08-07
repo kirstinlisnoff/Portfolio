@@ -1,0 +1,50 @@
+
+header {
+    width: 100%;
+    text-align: center;
+    color: var(--orange);
+
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Unna", serif;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav a {
+  color: var(--pink);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--orange);
+}
+
+.HomeContent h2 {
+    color: var(--orange);
+    font-size: 40px;
+    margin-left: 3rem;
+}
+
+.HomeContent p {
+    color: var(--light);
+    font-size: 30px;
+    margin-left: 1rem;
+    margin-right: 40rem;
+}
